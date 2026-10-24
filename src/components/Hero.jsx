@@ -4,6 +4,7 @@ import { DownloadIcon } from "lucide-react"
 import iconcontroller from "../assets/iconcontroller.png"
 import cvdummy from "../assets/cvdummy.pdf"
 import saya from "../assets/saya.png"
+import TechStackBar from "./TechStackBar"
 
 const Hero = () => {
     const [text, setText] = useState("")
@@ -111,6 +112,7 @@ const Hero = () => {
 
                 </div>
             </section>
+            <TechStackBar />
         </div>
     )
 }
