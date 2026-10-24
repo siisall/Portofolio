@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css"
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Certificates from "./components/Certificates";
 
 const App = () => {
   useEffect(() => {
@@ -18,6 +19,7 @@ const App = () => {
     <div className="bg-linear-to-br from-gray-900 via-[#0d182e] to-gray-950 min-h-screen">
       <Navbar />
       <Hero />
+      <Certificates />
     </div>
   );
 };
