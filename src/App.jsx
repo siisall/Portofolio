@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Certificates from "./components/Certificates";
 import About from "./components/About";
+import Education from "./components/Education";
 
 const App = () => {
   useEffect(() => {
@@ -22,6 +23,7 @@ const App = () => {
       <Hero />
       <About />
       <Certificates />
+      <Education />
     </div>
   );
 };
