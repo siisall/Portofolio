@@ -9,8 +9,8 @@ const Navbar = () => {
     { name: "HOME", link: "#home" },
     { name: "ABOUT", link: "#about" },
     { name: "CERTIFICATES", link: "#certificates" },
-    { name: "SKILLS", link: "#skills" },
     { name: "PROJECT", link: "#project" },
+    { name: "SKILLS", link: "#skills" },
     { name: "CONTACT", link: "#contact" },
   ];
 
